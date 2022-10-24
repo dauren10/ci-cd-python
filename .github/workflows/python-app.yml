@@ -40,10 +40,10 @@ jobs:
       run: |
         export PYTHONPATH=src
         pytest
-    - name: Deploy
-      env:
-        TOKEN: ${{secrets.TOKEN}}
-      if: github.ref == 'refs/heads/master' && job.status == 'success'
+    # - name: Deploy
+    #   env:
+    #     TOKEN: ${{secrets.TOKEN}}
+    #   if: github.ref == 'refs/heads/master' && job.status == 'success'
       #run: |
         #git remote add link
         #git push HEAD:master -f
