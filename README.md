@@ -7,3 +7,7 @@
 7)deactivate
 8)source .venv/bin/activate
 9)enter command "pytest" from root
+10) git hub actions
+11) python application
+12) in run export PYTHONPATH=src
+13) in github go to the settings/secrets New repository secret
